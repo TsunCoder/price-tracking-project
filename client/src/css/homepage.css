@@ -1,0 +1,166 @@
+.background{
+    background-image: url("../assets/background.png");
+    background-position: center;
+    background-size: 100%;
+}
+.logoo{
+    position: absolute;
+    top: 100px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    border-radius: 12px;
+}
+.logoo img{
+    height: 64px;
+    width: 64px;
+    border-radius: 12px;
+}
+.logo--Shopee{
+    left: 1100px;
+    top: 150px;
+}
+.logo--tiki{
+    top: 50px;
+    left: 150px;
+}
+.logo--lazada{
+    top: 300px;
+    left: 200px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container--title{
+    padding: 1rem;
+    margin-top: 10%;
+}
+
+.container--title h1{
+    font-weight: bolder;
+    font-size: 40px;
+}
+.container--title img{
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+.image img{
+    max-width: 28px;
+    max-height: 60px;
+}
+.image2 img{
+    max-width: 49px;
+    max-height: 52px;
+}
+.container--title--text{
+    margin: 6px;
+    flex-direction: row;
+}
+
+.container--input{
+    flex-direction: row;
+}
+.container--input h1{
+    font-weight: 300;
+    font-size: 24px;
+    margin-top: 50px;
+}
+.container--input input{
+    padding: 1rem;
+    font-size: 16px;
+    border: 1px white solid;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 400px;
+    margin-top: 12px;
+}
+
+.chart{
+    flex-direction: row;
+    margin-top: 150px;
+    width: 100%;
+}
+
+.container--product{
+    flex-direction: row;
+}
+.container--productSample{
+    flex-direction: row;
+    margin-top: 64px;
+}
+.border{
+    margin-top: 16px;
+    min-width: 180px;
+    min-height: 250px;
+    max-width: 180px;
+    max-height: 250px;
+    border: 1px solid red;
+    border-radius: 12px;
+}
+.border:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+.border + .border{
+    margin-left: 12px;
+}
+.border--image {
+    width: 180px;
+    height: 180px;
+}
+.border--image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px 12px 0px 0px;
+}
+.border--text{
+    flex-direction: column;
+    margin-top: 4px;
+}
+.border--text h8{
+    font-weight: 600;
+}
+.border--text span{
+    color: #2EA823;
+    background-color: #B8E4B4;
+    border-radius: 6px;
+    padding: 0.1rem;
+    width: 100%;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    width: 3rem;
+    position: absolute;
+    background-color: rgba(255,255,255,var(--tw-bg-opacity));
+    border-radius: 360px;
+    border-width: 0;
+    cursor: pointer;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 95px;
+}
+.button:hover{
+    transition: 0.5s;
+    color: orange;
+    box-shadow: orange 0px 2px 8px 0px;
+}
+.button--next {
+    margin-left: 16px;
+    transform: rotate(90deg);
+}
+.button--next:hover{
+    transform: scale(1.2) rotate(90deg);
+}
+.button--previous{
+    margin-right: 8px;
+    transform: rotate(-90deg);
+} 
+.button--previous:hover{
+    transform: scale(1.2) rotate(-90deg);
+}
