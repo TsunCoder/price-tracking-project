@@ -1,14 +1,15 @@
 const mongoose = require("mongoose");
 
-const price = new mongoose.Schema({
-  price: {type:Number},
-});
+const price = new mongoose.Schema(
+  {
+    price: { type: Number },
+  },
+  { timestamps: true }
+);
 
 const priceTracker = new mongoose.Schema({
   id: { type: Number },
-  prices:[
-    price,
-  ]
+  prices: [price],
 });
 priceTracker.set("timestamps", true);
 
